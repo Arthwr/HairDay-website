@@ -11,7 +11,7 @@ body {
 
 .main-logo {
   width: 250px;
-  height: 150px;
+  height: auto;
   display: flex;
   margin: 15px auto 30px;
 }

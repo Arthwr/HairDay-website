@@ -13,23 +13,25 @@
     <meta name="robots" content="index,follow" />
     <meta name="HandheldFriendly" content="true" />
     <!-- Open Graph Protocol -->
-    <meta
-      property="og:title"
-      content="Hair Day"
-    />
+    <meta property="og:title" content="Hair Day" />
     <meta property="og:type" content="website" />
     <meta
       property="og:url"
       content="https://arthwr.github.io/HairDay-website/"
     />
-    <meta property="og:description" content="Edgy and trendy cuts in your local area" />
+    <meta
+      property="og:description"
+      content="Edgy and trendy cuts in your local area"
+    />
     <meta property="og:image" content="logo/Artboard 1.png" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Hair Day</title>
@@ -48,11 +50,25 @@
           <span></span>
         </a>
         <ul id="menu" class="nav-flex">
-          <li class="navlink active"><a href="index.html" aria-label="Visit Home page">Home</a></li>
-          <li class="navlink"><a href="products.html" aria-label="Visit Products page">Products</a></li>
-          <li class="navlink"><a href="about.html" aria-label="Visit About page">About</a></li>
+          <li class="navlink active">
+            <a href="index.html" aria-label="Visit Home page">Home</a>
+          </li>
           <li class="navlink">
-            <a id="book" class="threed" href="book-form.html" aria-label="Visit Book Now page">Book Now</a>
+            <a href="products.html" aria-label="Visit Products page"
+              >Products</a
+            >
+          </li>
+          <li class="navlink">
+            <a href="about.html" aria-label="Visit About page">About</a>
+          </li>
+          <li class="navlink">
+            <a
+              id="book"
+              class="threed"
+              href="book-form.html"
+              aria-label="Visit Book Now page"
+              >Book Now</a
+            >
           </li>
         </ul>
         <div class="hr">
