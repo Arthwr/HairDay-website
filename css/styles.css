@@ -443,7 +443,7 @@ footer {
     top: 20px;
     right: 20px;
     width: 50px;
-    height: 40px;
+    height: 50px;
     background-color: #eeedeb;
     border: 1px solid;
     border-color: white;
@@ -454,7 +454,7 @@ footer {
     border-bottom: 2px solid;
     border-color: #d0604c;
     height: 2px;
-    margin: 6px;
+    margin: 9px;
   }
 
   #menu {
