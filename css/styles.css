@@ -45,15 +45,11 @@ body {
 }
 
 hr {
-  width: 82%;
   margin: auto;
   height: 1px;
   background-color: black;
 }
 
-.hr {
-  margin-left: 12px;
-}
 
 #book {
   border: 1px solid;
