@@ -70,10 +70,6 @@ hr {
   transform: translateX(-3px);
 }
 
-#book:hover {
-  /* box-shadow: 0 0 10px #d0604c; */
-}
-
 .navlink a:hover {
   color: #d0604c;
 }
@@ -342,7 +338,7 @@ footer {
 }
 
 /* Laptop L */
-@media (max-width: 1070px) {
+@media (max-width: 1105px) {
   h1 {
     font-size: 2.5em;
   }
