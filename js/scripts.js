@@ -7,6 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
       window.innerWidth || this.document.documentElement.clientWidth;
     if (screenWidth > 425) {
       links.style.display = "flex";
+    } else {
+      links.style.display = "none";
     }
   });
 });
